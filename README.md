@@ -18,11 +18,11 @@ The following guides illustrate how to use some features concretely:
 
 
 
-### Compile Code
+### Compile Code
 ./mvnw clean compile -e
 
 
-### Test Code
+### Test Code
 ./mvnw clean test -e
 
 
@@ -30,7 +30,7 @@ The following guides illustrate how to use some features concretely:
 ./mvnw clean package -e
 
 
-### Run Jar
+### Run Jar
 Front:      ./mvnw spring-boot:run 
 Background: nohup bash mvnw spring-boot:run &
 

@@ -1,5 +1,22 @@
 # Getting Started
 
+### Compile Code
+* ./mvnw clean compile -e
+
+### Test Code
+* ./mvnw clean test -e
+
+### Jar Code
+* ./mvnw clean package -e
+
+### Run Jar
+* Front:      ./mvnw spring-boot:run 
+* Background: nohup bash mvnw spring-boot:run &
+
+---
+### Testing Application
+* curl -X GET 'http://localhost:8081/rest/mscovid/test?msg=testing'
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
@@ -15,25 +32,3 @@ The following guides illustrate how to use some features concretely:
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
-
-
-### Compile Code
-./mvnw clean compile -e
-
-
-### Test Code
-./mvnw clean test -e
-
-
-### Jar Code
-./mvnw clean package -e
-
-
-### Run Jar
-Front:      ./mvnw spring-boot:run 
-Background: nohup bash mvnw spring-boot:run &
-
-
-### Testing Application
-curl -X GET 'http://localhost:8081/rest/mscovid/test?msg=testing'
